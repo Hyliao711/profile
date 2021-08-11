@@ -1,3 +1,15 @@
+@mixin padtophone{
+  @media (max-width:767px) {
+      @content
+  }
+}
+
+@mixin padtodesk{
+  @media (max-width:992px) {
+      @content
+  }
+}
+
 .index__h1 {
   color:#00cc99;
   font-size: 20px;
@@ -28,3 +40,4 @@ h2 {
     }
   }
 }
+
