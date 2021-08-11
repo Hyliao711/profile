@@ -6,9 +6,25 @@
 
 h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 85px;
 }
 
 .headpage {
   height: 100vh;
+}
+
+.container-xxl {
+  max-width: 1700px;
+}
+
+.menu {
+  li {
+    a {
+      @include padtodesk(){
+        font-size: 48px!important;
+      }
+      @include padtophone(){
+        font-size: 32px!important;
+      }
+    }
+  }
 }

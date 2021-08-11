@@ -1,0 +1,11 @@
+
+@mixin padtophone{
+    @media (max-width:767px) {
+        @content
+    }
+}
+@mixin padtodesk{
+    @media (max-width:992px) {
+        @content
+    }
+}
