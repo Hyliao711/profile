@@ -5,42 +5,158 @@ engine: ejs
 current: index
 ---
 
-<div class="headpage container d-flex flex-column justify-content-center pb-md-5">
-  <h2 class="fs-1">Welcome to Yu Ting's portfolio</h2>
-  <ul class="menu d-md-flex flex-lg-row flex-column list-unstyled pt-sm-3">
-    <li><a href="#" class="pe-md-4 fs-7 fw-bold text-dark">Website</a></li>
-    <li><a href="#" class="pe-md-4 fs-7 fw-bold text-dark">Graphic</a></li>
-    <li><a href="#" class="pe-md-4 fs-7 fw-bold text-dark">Branding</a></li>
-  </ul>
+<div class="main container pt-lg-0 pt-md-9">
+  <div class="headpage d-flex flex-column justify-content-center align-items-center">
+    <div class="d-lg-none me"></div>
+    <div class="d-flex flex-column justify-content-center pb-md-5">
+      <h2 class="topic fs-4">Welcome to Yu Ting's portfolio</h2>
+      <ul class="menu d-md-flex flex-lg-row flex-column list-unstyled pt-sm-3">
+        <li><a href="#" class="pe-md-4 fs-7 fw-bold text-dark">Website</a></li>
+        <li><a href="#" class="pe-md-4 fs-7 fw-bold text-dark">Graphic</a></li>
+        <li><a href="#" class="pe-md-4 fs-7 fw-bold text-dark">Branding</a></li>
+      </ul>
+    </div>
+  </div>
 </div>
 <div class="scroll">
-  <div class="p-scroll-btn">
+  <div class="p-scroll-btn d-none d-lg-block">
     <span class="p-scroll-btn__txt">SCROLL</span>
   </div>
 </div>
 
 
+   <!-- main container -->
+   <div class="main-container portfolio-inner clearfix">
+    <!-- portfolio div -->
+    <div class="portfolio-div">
+        <div class="portfolio">
+            <!-- portfolio_filter -->
+            <div class="nav-scroller mb-9 mb-md-10">
+              <nav class="container nav justify-content-md-center" aria-label="Secondary navigation">
+                <a class="nav-link active" aria-current="page" href="#">All</a>
+                <a class="nav-link" href="#">Website</a>
+                <a class="nav-link" href="#">Graphics</a>
+                <a class="nav-link" href="#">Branding</a>
+              </nav>
+            </div>
+            <div class="categories-grid wow fadeInLeft">
+                <nav class="categories text-center">
+                    <ul class="portfolio_filter">
+                        <li><a href="" class="active" data-filter="*">All</a></li>
+                        <li><a href="" data-filter=".photography">Photography</a></li>
+                        <li><a href="" data-filter=".logo">Logo</a></li>
+                        <li><a href="" data-filter=".graphics">Graphics</a></li>
+                        <li><a href="" data-filter=".ads">Advertising</a></li>
+                        <li><a href="" data-filter=".fashion">Fashion</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- portfolio_filter -->
 
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>
+            <!-- portfolio_container -->
+            <div class="row no-padding portfolio_container clearfix">
+                <!-- single work -->
+                <div class="col-md-4 col-sm-6  fashion logo">
+                    <a href="single-project.html" class="portfolio_item">
+                        <img src="./assets/images/portfolio/01.jpg" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>Mockups in seconds</span>
+                                    <em>Fashion / Logo</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+                <!-- single work -->
+                <div class="col-md-4 col-sm-6 ads graphics">
+                    <a href="single-project.html" class="portfolio_item">
+                        <img src="./assets/images/portfolio/02.jpg" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>Floating mockups</span>
+                                    <em>Ads / Graphics</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
+
+                <!-- single work -->
+                <div class="col-md-4 col-sm-12 photography">
+                    <a href="single-project.html" class="portfolio_item">
+                        <img src="./assets/images/portfolio/03.jpg" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>Photorealistic smartwatch</span>
+                                    <em>Photography</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
+
+                <!-- single work -->
+                <div class="col-md-4 col-sm-6 fashion ads">
+                    <a href="single-project.html" class="portfolio_item">
+                        <img src="./assets/images/portfolio/04.jpg" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>Held by hands</span>
+                                    <em>Fashion / Ads</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
+
+                <!-- single work -->
+                <div class="col-md-4 col-sm-6 graphics ads">
+                    <a href="single-project.html" class="portfolio_item">
+                        <img src="./assets/images/portfolio/05.jpg" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>Mobile devices</span>
+                                    <em>Graphics / Ads</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
+
+                <!-- single work -->
+                <div class="col-md-4 col-sm-12 photography">
+                    <a href="single-project.html" class="portfolio_item">
+                        <img src="./assets/images/portfolio/010.jpg" alt="image" class="img-responsive" />
+                        <div class="portfolio_item_hover">
+                            <div class="portfolio-border clearfix">
+                                <div class="item_info">
+                                    <span>Photorealistic smartwatch</span>
+                                    <em>Photography</em>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- end single work -->
+
+            </div>
+            <!-- end portfolio_container -->
+        </div>
+        <!-- portfolio -->
     </div>
-  </div>
+    <!-- end portfolio div -->
 </div>
+<!-- end main container -->
+
