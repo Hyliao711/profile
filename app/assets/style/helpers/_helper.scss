@@ -15,7 +15,7 @@
       content: '';
       height: 80px;
       width: 2px;
-      background-color:rgba(rgb(94, 166, 207), .5);
+      background-color:rgba(rgba(131, 131, 131, 0.87), .8);
     }
   
     &::after {
@@ -73,7 +73,7 @@
     text-align: center;
     opacity: 0;
     color: #fff;
-    background-color:rgba(rgb(94, 166, 207), .8);
+    background-color:rgba(rgb(34, 34, 34), .8);
     transition: opacity 0.25s ease;
     text-align: center;
   }
