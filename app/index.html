@@ -88,8 +88,26 @@ current: index
   <div class="container-fluid p-0">
     <div class="row g-0">
       <div class="col-lg-4 col-sm-6">
-        <a class="portfolio-box" href="#" title="Project Name">
+        <a class="portfolio-box" href="#" title="Project Name" data-bs-toggle="modal" data-bs-target="#webModal">
           <img class="img-fluid" src="./assets/images/portfolio/web01.jpg" alt="..." />
+          <div class="portfolio-box-caption">
+            <div class="project-category text-white-50">Category</div>
+            <div class="project-name">Project Name</div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <a class="portfolio-box" href="#" title="Project Name" data-bs-toggle="modal" data-bs-target="#graphicModal">
+          <img class="img-fluid" src="./assets/images/graphic/moon.jpg" alt="..." />
+          <div class="portfolio-box-caption">
+            <div class="project-category text-white-50">Category</div>
+            <div class="project-name">Project Name</div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <a class="portfolio-box" href="#" title="Project Name" data-bs-toggle="modal" data-bs-target="#foodModal">
+          <img class="img-fluid" src="./assets/images/food/meat01.jpg" alt="..." />
           <div class="portfolio-box-caption">
             <div class="project-category text-white-50">Category</div>
             <div class="project-name">Project Name</div>
@@ -123,23 +141,101 @@ current: index
           </div>
         </a>
       </div>
-      <div class="col-lg-4 col-sm-6">
-        <a class="portfolio-box" href="#" title="Project Name">
-          <img class="img-fluid" src="./assets/images/portfolio/web01.jpg" alt="..." />
-          <div class="portfolio-box-caption">
-            <div class="project-category text-white-50">Category</div>
-            <div class="project-name">Project Name</div>
-          </div>
-        </a>
+    </div>
+  </div>
+</div>
+
+<!-- modal-1 -->
+
+<div class="modal fade" id="webModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header border-0">
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="col-lg-4 col-sm-6">
-        <a class="portfolio-box" href="#" title="Project Name">
-          <img class="img-fluid" src="./assets/images/portfolio/web01.jpg" alt="..." />
-          <div class="portfolio-box-caption">
-            <div class="project-category text-white-50">Category</div>
-            <div class="project-name">Project Name</div>
-          </div>
-        </a>
+      <div class="modal-body d-flex flex-column align-items-center">
+        <ul class="row list-unstyled container">
+          <li>
+            <p>Website</p>
+            <h2 class="mb-5">Irreel Visual Art</h2>
+            <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti autem molestias vero, dignissimos ad asperiores obcaecati. Ab iure eveniet fugiat, neque harum facere molestias minus laboriosam exercitationem amet distinctio, reiciendis dicta quibusdam ea laborum maxime magnam enim officiis nostrum corrupti et veritatis. Quod natus molestiae eum, tempora esse at minima consequatur ullam, doloremque blanditiis sint. Ipsam possimus laborum debitis facere dolorum temporibus nisi minima earum quas, fuga, quod blanditiis magni quos aliquam adipisci repellendus! Ullam obcaecati explicabo blanditiis modi eum dignissimos? Sequi assumenda ea dicta cum dolorum! Cumque accusantium deleniti voluptatem odit? Sit enim sapiente maiores id pariatur, quidem facere!</p>
+          </li>
+          <li class="col-12">
+            <img src="./assets/images/portfolio/web01.jpg" alt="" class="modal-img">
+          </li>
+          <li class="col-12">
+            <img src="./assets/images/portfolio/web02.jpg" alt="" class="modal-img">
+          </li>
+          <li class="col-12">
+            <img src="./assets/images/portfolio/web03.jpg" alt="" class="modal-img">
+          </li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modal-2 -->
+
+<div class="modal fade" id="graphicModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header border-0">
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body d-flex flex-column align-items-center">
+        <ul class="row list-unstyled container">
+          <li>
+            <p>Graphics</p>
+            <h2 class="mb-5">Illustration</h2>
+            <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti autem molestias vero, dignissimos ad asperiores obcaecati. Ab iure eveniet fugiat, neque harum facere molestias minus laboriosam exercitationem amet distinctio, reiciendis dicta quibusdam ea laborum maxime magnam enim officiis nostrum corrupti et veritatis. Quod natus molestiae eum, tempora esse at minima consequatur ullam, doloremque blanditiis sint. Ipsam possimus laborum debitis facere dolorum temporibus nisi minima earum quas, fuga, quod blanditiis magni quos aliquam adipisci repellendus! Ullam obcaecati explicabo blanditiis modi eum dignissimos? Sequi assumenda ea dicta cum dolorum! Cumque accusantium deleniti voluptatem odit? Sit enim sapiente maiores id pariatur, quidem facere!</p>
+          </li>
+          <li class="col-12">
+            <img src="./assets/images/graphic/moon.jpg" alt="" class="modal-img">
+          </li>
+          <li class="col-12">
+            <img src="./assets/images/graphic/orange.jpg" alt="" class="modal-img">
+          </li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modal-3 -->
+
+<div class="modal fade" id="foodModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header border-0">
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body d-flex flex-column align-items-center">
+        <ul class="row list-unstyled container">
+          <li>
+            <p>Graphics</p>
+            <h2 class="mb-5">Illustration</h2>
+            <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti autem molestias vero, dignissimos ad asperiores obcaecati. Ab iure eveniet fugiat, neque harum facere molestias minus laboriosam exercitationem amet distinctio, reiciendis dicta quibusdam ea laborum maxime magnam enim officiis nostrum corrupti et veritatis. Quod natus molestiae eum, tempora esse at minima consequatur ullam, doloremque blanditiis sint. Ipsam possimus laborum debitis facere dolorum temporibus nisi minima earum quas, fuga, quod blanditiis magni quos aliquam adipisci repellendus! Ullam obcaecati explicabo blanditiis modi eum dignissimos? Sequi assumenda ea dicta cum dolorum! Cumque accusantium deleniti voluptatem odit? Sit enim sapiente maiores id pariatur, quidem facere!</p>
+          </li>
+          <li class="col-12">
+            <img src="./assets/images/food/meat3.jpg" alt="" class="modal-img">
+          </li>
+          <li class="col-12">
+            <img src="./assets/images/food/pork.jpg" alt="" class="modal-img">
+          </li>
+          <li class="col-12">
+            <img src="./assets/images/food/zen.jpg" alt="" class="modal-img">
+          </li>
+        </ul>
+      </div>
+      <div class="modal-footer">
       </div>
     </div>
   </div>
