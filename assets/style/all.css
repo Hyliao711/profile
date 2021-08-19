@@ -13981,4 +13981,12 @@ hr.divider-light {
   padding: 9rem 0;
 }
 
+.modal-li {
+  width: 80%;
+}
+
+.modal-img {
+  width: 100%;
+}
+
 /*# sourceMappingURL=all.css.map */
