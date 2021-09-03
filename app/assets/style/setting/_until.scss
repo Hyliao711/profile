@@ -1,3 +1,21 @@
 .fs-sm-2 {
     font-size: 32px!important;
 }
+.hover {
+    position: relative;
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        width: 0%;
+        height: 5px;
+        background-color: khaki;
+        transition: width 0.6s ease-in-out;
+    }
+    &:hover {
+        &::after{
+            width: 100%;
+        }
+    }    
+}
