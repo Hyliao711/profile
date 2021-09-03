@@ -13602,8 +13602,43 @@ fieldset:disabled .btn {
   }
 }
 
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body, h1, .h1, h2, .h2, h3, .h3 {
+  font-family: "Cormorant Upright",serif;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1;
+}
+
 .fs-sm-2 {
   font-size: 32px !important;
+}
+
+.hover {
+  position: relative;
+}
+
+.hover::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 0%;
+  height: 5px;
+  background-color: khaki;
+  -webkit-transition: width 0.6s ease-in-out;
+  -o-transition: width 0.6s ease-in-out;
+  transition: width 0.6s ease-in-out;
+}
+
+.hover:hover::after {
+  width: 100%;
 }
 
 .p-scroll-btn {
@@ -13918,7 +13953,7 @@ fieldset:disabled .btn {
 }
 
 .topic {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 @media (min-width: 992px) {
