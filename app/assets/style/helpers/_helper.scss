@@ -15,7 +15,7 @@
       content: '';
       height: 80px;
       width: 2px;
-      background-color:rgba(rgba(131, 131, 131, 0.87), .8);
+      background-color:khaki;
     }
   
     &::after {
@@ -88,4 +88,15 @@
   }
   #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
     opacity: 1;
+  }
+
+  .ball {
+    right: 0;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: khaki;
+    @include media-breakpoint-down(lg) {
+      display: none;
+    }
   }

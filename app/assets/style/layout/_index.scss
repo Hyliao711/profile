@@ -94,10 +94,11 @@
 
 .menu {
   li {
+    font-family: "Cormorant Upright",serif;
     a {
       font-size: 48px;
       @include media-breakpoint-up(lg) {
-        font-size: 32px;
+        font-size: 6vw;
       } 
     }
   }
