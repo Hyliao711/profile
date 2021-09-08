@@ -23,13 +23,12 @@
 <body>
 
   <header
-    class="container-xl d-flex justify-content-between align-items-center pt-6 ps-4 pe-4 ps-md-7 pe-md-7 position-fixed">
-    <h1>Yu-Ting</h1>
+    class="container-xl d-flex justify-content-between align-items-center pt-md-8 pt-4 ps-4 pe-4 ps-md-9 pe-md-9 position-fixed z-top">
+    <a href="#" class="text-black"><h1 class="fs-5">About</h1></a>
     <div class="menu-btn d-lg-none d-flex flex-column">
       <div class="menu-burger"></div>
     </div>
     <ul class="dropdown d-flex flex-lg-row  flex-column list-unstyled">
-      <li><a href="#" class="ps-lg-8 text-black">About</a></li>
       <li><a href="#" class="ps-lg-8 text-black">Skill</a></li>
       <li><a href="#" class="ps-lg-8 text-black">Works</a></li>
       <li><a href="#" class="ps-lg-8 text-black">Contact</a></li>
@@ -39,16 +38,27 @@
 
   
 <div class="main container pt-lg-0 pt-md-9">
-  <div class="headpage d-flex flex-column justify-content-center align-items-center">
-    <div class="d-lg-none me"></div>
-    <div class="d-flex flex-column justify-content-center pb-md-5">
-      <h2 class="topic fs-4">Welcome to Yu Ting's portfolio</h2>
-      <ul class="menu d-md-flex flex-lg-row flex-column list-unstyled pt-sm-3">
-        <li class=""><a href="#" class="pe-md-4 fs-7 fw-bold text-dark hover">WEBSITE</a></li>
-        <li class=""><a href="#" class="pe-md-4 fs-7 fw-bold text-dark hover">GRAPHIC</a></li>
-        <li class=""><a href="#" class="pe-md-4 fs-7 fw-bold text-dark hover">BRANDING</a></li>
-      </ul>
+  <div class="row">
+    <div class="col-12 d-flex flex-column flex-lg-row justify-content-center align-items-md-center position-relative h-vh">
+      <div class="d-lg-none me align-self-center"></div>
+      <div class="position-absolute ball"></div>
+      <div class="d-flex flex-column flex-md-row align-items-md-center justify-content-between">
+        <div class="d-flex flex-column justify-content-between me-lg-9 d-none d-lg-block">
+          <p class="fs-2">Hi, I'm Yu-Ting<br>Welcome to<br>My<br>portfolio</p>
+          <p class="fs-2">你好，我是廖御廷<br>歡迎你<br>來到<br>我的作品集網站</p>
+        </div>
+        <div class="d-flex flex-column align-items-md-center flex-md-row-reverse">
+          <p class="d-lg-none">Welcome to Yu-Ting's portfolio</p>
+          <ul class="menu d-flex flex-wrap text-lg-end flex-column list-unstyled pt-sm-3 ms-lg-9">
+            <li class=""><a href="#" class="pe-md-4 fw-bold text-dark hover">WEBSITE</a></li>
+            <li class=""><a href="#" class="pe-md-4 fw-bold text-dark hover">GRAPHIC</a></li>
+            <li class=""><a href="#" class="pe-md-4 fw-bold text-dark hover">BRANDING</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
+  </div>
+  <div class="d-flex flex-column justify-content-center align-items-center">
   </div>
 </div>
 <div class="scroll">
