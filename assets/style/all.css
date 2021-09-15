@@ -1,13 +1,13 @@
 /* new */
 /* new */
 /* 1.5rem !default; */
-/* 48 */
+/* 40 */
+/* 36 */
 /* 32 */
 /* 28 */
 /* 24 */
 /* 20 */
-/* 16 */
-/* 84 */
+/* 14 */
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -89,51 +89,57 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 
 h1, .h1 {
-  font-size: calc(1.425rem + 2.1vw);
+  font-size: calc(1.375rem + 1.5vw);
 }
 
 @media (min-width: 1200px) {
   h1, .h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
 
 h2, .h2 {
-  font-size: calc(1.325rem + 0.9vw);
+  font-size: calc(1.35rem + 1.2vw);
 }
 
 @media (min-width: 1200px) {
   h2, .h2 {
-    font-size: 2rem;
+    font-size: 2.25rem;
   }
 }
 
 h3, .h3 {
-  font-size: calc(1.3rem + 0.6vw);
+  font-size: calc(1.325rem + 0.9vw);
 }
 
 @media (min-width: 1200px) {
   h3, .h3 {
-    font-size: 1.75rem;
+    font-size: 2rem;
   }
 }
 
 h4, .h4 {
-  font-size: calc(1.275rem + 0.3vw);
+  font-size: calc(1.3rem + 0.6vw);
 }
 
 @media (min-width: 1200px) {
   h4, .h4 {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
   }
 }
 
 h5, .h5 {
-  font-size: 1.25rem;
+  font-size: calc(1.275rem + 0.3vw);
+}
+
+@media (min-width: 1200px) {
+  h5, .h5 {
+    font-size: 1.5rem;
+  }
 }
 
 h6, .h6 {
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 p {
@@ -9138,31 +9144,35 @@ fieldset:disabled .btn {
 }
 
 .fs-1 {
-  font-size: calc(1.425rem + 2.1vw) !important;
+  font-size: calc(1.375rem + 1.5vw) !important;
 }
 
 .fs-2 {
-  font-size: calc(1.325rem + 0.9vw) !important;
+  font-size: calc(1.35rem + 1.2vw) !important;
 }
 
 .fs-3 {
-  font-size: calc(1.3rem + 0.6vw) !important;
+  font-size: calc(1.325rem + 0.9vw) !important;
 }
 
 .fs-4 {
-  font-size: calc(1.275rem + 0.3vw) !important;
+  font-size: calc(1.3rem + 0.6vw) !important;
 }
 
 .fs-5 {
-  font-size: 1.25rem !important;
+  font-size: calc(1.275rem + 0.3vw) !important;
 }
 
 .fs-6 {
-  font-size: 1rem !important;
+  font-size: 1.25rem !important;
 }
 
 .fs-7 {
-  font-size: calc(1.65rem + 4.8vw) !important;
+  font-size: 1rem !important;
+}
+
+.fs-8 {
+  font-size: 0.875rem !important;
 }
 
 .fst-italic {
@@ -13549,19 +13559,19 @@ fieldset:disabled .btn {
 
 @media (min-width: 1200px) {
   .fs-1 {
-    font-size: 3rem !important;
+    font-size: 2.5rem !important;
   }
   .fs-2 {
-    font-size: 2rem !important;
+    font-size: 2.25rem !important;
   }
   .fs-3 {
-    font-size: 1.75rem !important;
+    font-size: 2rem !important;
   }
   .fs-4 {
-    font-size: 1.5rem !important;
+    font-size: 1.75rem !important;
   }
-  .fs-7 {
-    font-size: 5.25rem !important;
+  .fs-5 {
+    font-size: 1.5rem !important;
   }
 }
 
@@ -13610,7 +13620,7 @@ fieldset:disabled .btn {
 }
 
 body, h1, .h1, h2, .h2, h3, .h3 {
-  font-family: "Inter",sans-serif;
+  font-family: 'Cardo', serif;
   font-weight: 400;
   letter-spacing: 0;
   line-height: 1;
@@ -13654,6 +13664,11 @@ body, h1, .h1, h2, .h2, h3, .h3 {
 
 .z-top {
   z-index: 3;
+}
+
+.hello {
+  font-size: 80px;
+  letter-spacing: 5px;
 }
 
 .p-scroll-btn {
@@ -13947,10 +13962,6 @@ body, h1, .h1, h2, .h2, h3, .h3 {
   }
 }
 
-.menu li {
-  font-family: "Cormorant Upright",serif;
-}
-
 .menu li a {
   font-size: 48px;
 }
@@ -13983,10 +13994,6 @@ body, h1, .h1, h2, .h2, h3, .h3 {
     width: 350px;
     height: 350px;
   }
-}
-
-.topic {
-  font-family: 'Inter', sans-serif;
 }
 
 @media (min-width: 992px) {
