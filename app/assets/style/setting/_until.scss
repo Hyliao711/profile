@@ -10,7 +10,7 @@
         left: 0;
         width: 0%;
         height: 5px;
-        background-color: khaki;
+        background-color: rgba(255, 214, 0, 0.54);
         transition: width 0.6s ease-in-out;
     }
     &:hover {
@@ -21,6 +21,15 @@
 }
 .h-vh {
     height: 100vh;
+}
+.ms-30 {
+    margin-left: 30.5rem;
+}
+.mb-h {
+    margin-bottom: 300px;
+}
+.mt-50 {
+    margin-top: 40%;
 }
 .img {
     object-fit: cover;

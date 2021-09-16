@@ -5,90 +5,77 @@ engine: ejs
 current: index
 ---
 
-<div class="container d-flex justify-content-center align-items-center h-vh">
-  <div class="mx-auto">
+<div class="container d-flex justify-content-center align-items-center h-vh mb-h">
+  <div class="mx-auto position-relative">
     <h2 class="hello">Hello</h2>
     <p class="fs-7 lh-base">I’m Yu-Ting,<br>a web and graphic designer.</p>
+    <svg class="position-absolute ms-10 mt-6" width="70" height="186" viewBox="0 0 70 186" fill="none"
+      xmlns="http://www.w3.org/2000/svg">
+      <path d="M34.2979 2C52.0432 38.7437 63.626 106.792 25.1465 179.099" stroke="#FFE975" stroke-width="5" />
+      <path d="M16.5 150.5L24.5 182L52 170" stroke="#FFE975" stroke-width="5" />
+    </svg>
+    <div class="position-absolute ball d-flex justify-content-center align-items-center">
+      <ul class="menu d-flex flex-wrap flex-column list-unstyled pt-sm-3 ms-30">
+        <li class="mb-7"><a href="#" class="text-dark hover">WEBSITE</a></li>
+        <li class="mb-7"><a href="#" class="text-dark hover">GRAPHIC</a></li>
+        <li class=""><a href="#" class="text-dark hover">BRANDING</a></li>
+      </ul>
+    </div>
   </div>
 </div>
 
-<div class="main container pt-lg-0 pt-md-9">
-  <div class="row">
-    <div class="col-12 d-flex flex-column flex-lg-row justify-content-center align-items-md-center position-relative h-vh">
-      <div class="d-lg-none me align-self-center"></div>
-      <div class="position-absolute ball"></div>
-      <div class="d-flex flex-column flex-md-row align-items-md-center justify-content-between">
-        <div class="d-flex flex-column justify-content-between me-lg-9 d-none d-lg-block">
-          <p class="fs-2">Hi, I'm Yu-Ting<br>Welcome to<br>My<br>portfolio</p>
-          <p class="fs-2">你好，我是廖御廷<br>歡迎你<br>來到<br>我的作品集網站</p>
+
+<section class="page-section" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <img src="./assets/images/portfolio/me0913-3.jpg" alt="">
+      </div>
+      <div class="col-6 d-flex flex-column justify-content-center">
+        <div class="mt-50">
+          <h2 class="mb-6">Hi,</h2>
+          <p>I’m Yu-Ting, a graphic and web designer. I am a<br>
+            gradute of University of Arts London，I have been<br>
+            exploring various fields, with a particular focus on visual<br>
+            identities for print and web purposes.
+          </p>
         </div>
-        <div class="d-flex flex-column align-items-md-center flex-md-row-reverse">
-          <p class="d-lg-none">Welcome to Yu-Ting's portfolio</p>
-          <ul class="menu d-flex flex-wrap text-lg-end flex-column list-unstyled pt-sm-3 ms-lg-9">
-            <li class=""><a href="#" class="pe-md-4 fw-bold text-dark hover">WEBSITE</a></li>
-            <li class=""><a href="#" class="pe-md-4 fw-bold text-dark hover">GRAPHIC</a></li>
-            <li class=""><a href="#" class="pe-md-4 fw-bold text-dark hover">BRANDING</a></li>
-          </ul>
+        <div class="mt-auto">
+          <p class="fs-5">What I like best about what I do is expressing emotion through my creative work.</p>
         </div>
       </div>
     </div>
-  </div>
-  <div class="d-flex flex-column justify-content-center align-items-center">
-  </div>
-</div>
-<div class="scroll">
-  <div class="p-scroll-btn d-none d-lg-block">
-    <span class="p-scroll-btn__txt">SCROLL</span>
-  </div>
-</div>
-
-<section class="page-section bg-info" id="about">
-  <div class="container px-4 px-lg-5">
-      <div class="row gx-4 gx-lg-5 justify-content-center">
-          <div class="col-lg-8 text-center">
-              <h2 class="text-white mt-0">ABOUT</h2>
-              <hr class="divider divider-light" />
-              <p class="text-white mb-8">Hi, I am Miao.
-
-                I have experienced in Web / Visual Design for more than 6 years and participated in many high quality projects.
-                
-                I fell comfortable working in a team or individually and have
-                
-                an in-depth understanding of emerging technologies.</p>
-              <a class="btn btn-light btn-xl" href="#">resume</a>
-          </div>
-      </div>
   </div>
 </section>
 
 
 <section class="page-section" id="services">
   <div class="container px-4 px-lg-5">
-      <h2 class="text-center mt-0">SKILL</h2>
-      <hr class="divider" />
-      <div class="row gx-4 gx-lg-5">
-          <div class="col-lg-4 col-12 text-center">
-              <div class="mt-5">
-                  <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div>
-                  <h3 class="h4 mb-2">Website Design</h3>
-                  <p class="text-muted mb-0">網頁設計 / 前端設計<br>Html、css、jquery<br>Standardized web design</p>
-              </div>
-          </div>
-          <div class="col-lg-4 col-12 text-center">
-              <div class="mt-5">
-                  <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
-                  <h3 class="h4 mb-2">Graphic</h3>
-                  <p class="text-muted mb-0">網頁設計 / 前端設計<br>Html、css、jquery<br>Standardized web design</p>
-              </div>
-          </div>
-          <div class="col-lg-4 col-12 text-center">
-              <div class="mt-5">
-                  <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
-                  <h3 class="h4 mb-2">Branding</h3>
-                  <p class="text-muted mb-0">網頁設計 / 前端設計<br>Html、css、jquery<br>Standardized web design</p>
-              </div>
-          </div>
+    <h2 class="text-center mt-0">SKILL</h2>
+    <hr class="divider" />
+    <div class="row gx-4 gx-lg-5">
+      <div class="col-lg-4 col-12 text-center">
+        <div class="mt-5">
+          <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div>
+          <h3 class="h4 mb-2">Website Design</h3>
+          <p class="text-muted mb-0">網頁設計 / 前端設計<br>Html、css、jquery<br>Standardized web design</p>
+        </div>
       </div>
+      <div class="col-lg-4 col-12 text-center">
+        <div class="mt-5">
+          <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
+          <h3 class="h4 mb-2">Graphic</h3>
+          <p class="text-muted mb-0">網頁設計 / 前端設計<br>Html、css、jquery<br>Standardized web design</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-12 text-center">
+        <div class="mt-5">
+          <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
+          <h3 class="h4 mb-2">Branding</h3>
+          <p class="text-muted mb-0">網頁設計 / 前端設計<br>Html、css、jquery<br>Standardized web design</p>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -177,7 +164,14 @@ current: index
           <li>
             <p>Website</p>
             <h2 class="mb-5">Irreel Visual Art</h2>
-            <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti autem molestias vero, dignissimos ad asperiores obcaecati. Ab iure eveniet fugiat, neque harum facere molestias minus laboriosam exercitationem amet distinctio, reiciendis dicta quibusdam ea laborum maxime magnam enim officiis nostrum corrupti et veritatis. Quod natus molestiae eum, tempora esse at minima consequatur ullam, doloremque blanditiis sint. Ipsam possimus laborum debitis facere dolorum temporibus nisi minima earum quas, fuga, quod blanditiis magni quos aliquam adipisci repellendus! Ullam obcaecati explicabo blanditiis modi eum dignissimos? Sequi assumenda ea dicta cum dolorum! Cumque accusantium deleniti voluptatem odit? Sit enim sapiente maiores id pariatur, quidem facere!</p>
+            <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti autem molestias vero,
+              dignissimos ad asperiores obcaecati. Ab iure eveniet fugiat, neque harum facere molestias minus laboriosam
+              exercitationem amet distinctio, reiciendis dicta quibusdam ea laborum maxime magnam enim officiis nostrum
+              corrupti et veritatis. Quod natus molestiae eum, tempora esse at minima consequatur ullam, doloremque
+              blanditiis sint. Ipsam possimus laborum debitis facere dolorum temporibus nisi minima earum quas, fuga,
+              quod blanditiis magni quos aliquam adipisci repellendus! Ullam obcaecati explicabo blanditiis modi eum
+              dignissimos? Sequi assumenda ea dicta cum dolorum! Cumque accusantium deleniti voluptatem odit? Sit enim
+              sapiente maiores id pariatur, quidem facere!</p>
           </li>
           <li class="col-12">
             <img src="./assets/images/portfolio/web01.jpg" alt="" class="modal-img">
@@ -210,7 +204,14 @@ current: index
           <li>
             <p>Graphics</p>
             <h2 class="mb-5">Illustration</h2>
-            <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti autem molestias vero, dignissimos ad asperiores obcaecati. Ab iure eveniet fugiat, neque harum facere molestias minus laboriosam exercitationem amet distinctio, reiciendis dicta quibusdam ea laborum maxime magnam enim officiis nostrum corrupti et veritatis. Quod natus molestiae eum, tempora esse at minima consequatur ullam, doloremque blanditiis sint. Ipsam possimus laborum debitis facere dolorum temporibus nisi minima earum quas, fuga, quod blanditiis magni quos aliquam adipisci repellendus! Ullam obcaecati explicabo blanditiis modi eum dignissimos? Sequi assumenda ea dicta cum dolorum! Cumque accusantium deleniti voluptatem odit? Sit enim sapiente maiores id pariatur, quidem facere!</p>
+            <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti autem molestias vero,
+              dignissimos ad asperiores obcaecati. Ab iure eveniet fugiat, neque harum facere molestias minus laboriosam
+              exercitationem amet distinctio, reiciendis dicta quibusdam ea laborum maxime magnam enim officiis nostrum
+              corrupti et veritatis. Quod natus molestiae eum, tempora esse at minima consequatur ullam, doloremque
+              blanditiis sint. Ipsam possimus laborum debitis facere dolorum temporibus nisi minima earum quas, fuga,
+              quod blanditiis magni quos aliquam adipisci repellendus! Ullam obcaecati explicabo blanditiis modi eum
+              dignissimos? Sequi assumenda ea dicta cum dolorum! Cumque accusantium deleniti voluptatem odit? Sit enim
+              sapiente maiores id pariatur, quidem facere!</p>
           </li>
           <li class="col-12">
             <img src="./assets/images/graphic/moon.jpg" alt="" class="modal-img">
@@ -240,7 +241,14 @@ current: index
           <li>
             <p>Graphics</p>
             <h2 class="mb-5">Illustration</h2>
-            <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti autem molestias vero, dignissimos ad asperiores obcaecati. Ab iure eveniet fugiat, neque harum facere molestias minus laboriosam exercitationem amet distinctio, reiciendis dicta quibusdam ea laborum maxime magnam enim officiis nostrum corrupti et veritatis. Quod natus molestiae eum, tempora esse at minima consequatur ullam, doloremque blanditiis sint. Ipsam possimus laborum debitis facere dolorum temporibus nisi minima earum quas, fuga, quod blanditiis magni quos aliquam adipisci repellendus! Ullam obcaecati explicabo blanditiis modi eum dignissimos? Sequi assumenda ea dicta cum dolorum! Cumque accusantium deleniti voluptatem odit? Sit enim sapiente maiores id pariatur, quidem facere!</p>
+            <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti autem molestias vero,
+              dignissimos ad asperiores obcaecati. Ab iure eveniet fugiat, neque harum facere molestias minus laboriosam
+              exercitationem amet distinctio, reiciendis dicta quibusdam ea laborum maxime magnam enim officiis nostrum
+              corrupti et veritatis. Quod natus molestiae eum, tempora esse at minima consequatur ullam, doloremque
+              blanditiis sint. Ipsam possimus laborum debitis facere dolorum temporibus nisi minima earum quas, fuga,
+              quod blanditiis magni quos aliquam adipisci repellendus! Ullam obcaecati explicabo blanditiis modi eum
+              dignissimos? Sequi assumenda ea dicta cum dolorum! Cumque accusantium deleniti voluptatem odit? Sit enim
+              sapiente maiores id pariatur, quidem facere!</p>
           </li>
           <li class="col-12">
             <img src="./assets/images/food/meat3.jpg" alt="" class="modal-img">
@@ -273,7 +281,14 @@ current: index
           <li>
             <p>Graphics</p>
             <h2 class="mb-5">Illustration</h2>
-            <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti autem molestias vero, dignissimos ad asperiores obcaecati. Ab iure eveniet fugiat, neque harum facere molestias minus laboriosam exercitationem amet distinctio, reiciendis dicta quibusdam ea laborum maxime magnam enim officiis nostrum corrupti et veritatis. Quod natus molestiae eum, tempora esse at minima consequatur ullam, doloremque blanditiis sint. Ipsam possimus laborum debitis facere dolorum temporibus nisi minima earum quas, fuga, quod blanditiis magni quos aliquam adipisci repellendus! Ullam obcaecati explicabo blanditiis modi eum dignissimos? Sequi assumenda ea dicta cum dolorum! Cumque accusantium deleniti voluptatem odit? Sit enim sapiente maiores id pariatur, quidem facere!</p>
+            <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti autem molestias vero,
+              dignissimos ad asperiores obcaecati. Ab iure eveniet fugiat, neque harum facere molestias minus laboriosam
+              exercitationem amet distinctio, reiciendis dicta quibusdam ea laborum maxime magnam enim officiis nostrum
+              corrupti et veritatis. Quod natus molestiae eum, tempora esse at minima consequatur ullam, doloremque
+              blanditiis sint. Ipsam possimus laborum debitis facere dolorum temporibus nisi minima earum quas, fuga,
+              quod blanditiis magni quos aliquam adipisci repellendus! Ullam obcaecati explicabo blanditiis modi eum
+              dignissimos? Sequi assumenda ea dicta cum dolorum! Cumque accusantium deleniti voluptatem odit? Sit enim
+              sapiente maiores id pariatur, quidem facere!</p>
           </li>
           <li class="col-12">
             <img src="./assets/images/portfolio/card02.jpg" alt="" class="modal-img">
@@ -303,7 +318,14 @@ current: index
           <li>
             <p>Graphics</p>
             <h2 class="mb-5">Illustration</h2>
-            <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti autem molestias vero, dignissimos ad asperiores obcaecati. Ab iure eveniet fugiat, neque harum facere molestias minus laboriosam exercitationem amet distinctio, reiciendis dicta quibusdam ea laborum maxime magnam enim officiis nostrum corrupti et veritatis. Quod natus molestiae eum, tempora esse at minima consequatur ullam, doloremque blanditiis sint. Ipsam possimus laborum debitis facere dolorum temporibus nisi minima earum quas, fuga, quod blanditiis magni quos aliquam adipisci repellendus! Ullam obcaecati explicabo blanditiis modi eum dignissimos? Sequi assumenda ea dicta cum dolorum! Cumque accusantium deleniti voluptatem odit? Sit enim sapiente maiores id pariatur, quidem facere!</p>
+            <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti autem molestias vero,
+              dignissimos ad asperiores obcaecati. Ab iure eveniet fugiat, neque harum facere molestias minus laboriosam
+              exercitationem amet distinctio, reiciendis dicta quibusdam ea laborum maxime magnam enim officiis nostrum
+              corrupti et veritatis. Quod natus molestiae eum, tempora esse at minima consequatur ullam, doloremque
+              blanditiis sint. Ipsam possimus laborum debitis facere dolorum temporibus nisi minima earum quas, fuga,
+              quod blanditiis magni quos aliquam adipisci repellendus! Ullam obcaecati explicabo blanditiis modi eum
+              dignissimos? Sequi assumenda ea dicta cum dolorum! Cumque accusantium deleniti voluptatem odit? Sit enim
+              sapiente maiores id pariatur, quidem facere!</p>
           </li>
           <li class="col-12">
             <img src="./assets/images/portfolio/bag/bag-head.jpg" alt="" class="modal-img">
