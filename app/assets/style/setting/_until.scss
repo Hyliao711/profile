@@ -1,6 +1,9 @@
 .fs-sm-2 {
     font-size: 32px!important;
 }
+.fs-large {
+    font-size: 85px;
+}
 .hover {
     position: relative;
     &::after {
@@ -42,4 +45,8 @@
 .hello {
     font-size: 80px;
     letter-spacing: 5px;
+}
+.me-right {
+    margin-right: -175px;
+    letter-spacing: 15px;
 }
