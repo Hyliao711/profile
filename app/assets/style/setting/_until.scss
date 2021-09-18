@@ -3,6 +3,12 @@
 }
 .fs-large {
     font-size: 85px;
+    @include media-breakpoint-down(lg) {
+        margin-left: 15vw;
+    }
+    @include media-breakpoint-down(md) {
+        font-size: 15vw;
+    }
 }
 .hover {
     position: relative;
@@ -27,6 +33,12 @@
 }
 .ms-30 {
     margin-left: 30.5rem;
+    @include media-breakpoint-down(lg) {
+        margin-left: 20.5rem;
+    }
+    @include media-breakpoint-down(md) {
+        margin-left: 7.5rem;
+    }
 }
 .mb-h {
     margin-bottom: 300px;
@@ -49,4 +61,16 @@
 .me-right {
     margin-right: -175px;
     letter-spacing: 15px;
+    @include media-breakpoint-down(lg) {
+        margin-right: 0px;
+        letter-spacing: 5px;
+    }
+    @include media-breakpoint-down(md) {
+        margin-right: 0px;
+        letter-spacing: 5px;
+    }
 }
+
+.layer {
+    pointer-events: auto;
+ }

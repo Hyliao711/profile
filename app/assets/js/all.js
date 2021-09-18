@@ -18,5 +18,4 @@ menuBtn.addEventListener('click', () => {
   dropDown.classList.toggle('open')
 });
 
-var scene = document.getElementById('scene');
-var parallaxInstance = new Parallax(scene);
+
