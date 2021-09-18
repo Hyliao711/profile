@@ -13756,6 +13756,18 @@ body, h1, .h1, h2, .h2, h3, .h3 {
   font-size: 85px;
 }
 
+@media (max-width: 991.98px) {
+  .fs-large {
+    margin-left: 15vw;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .fs-large {
+    font-size: 15vw;
+  }
+}
+
 .hover {
   position: relative;
 }
@@ -13785,6 +13797,18 @@ body, h1, .h1, h2, .h2, h3, .h3 {
   margin-left: 30.5rem;
 }
 
+@media (max-width: 991.98px) {
+  .ms-30 {
+    margin-left: 20.5rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .ms-30 {
+    margin-left: 7.5rem;
+  }
+}
+
 .mb-h {
   margin-bottom: 300px;
 }
@@ -13812,6 +13836,24 @@ body, h1, .h1, h2, .h2, h3, .h3 {
 .me-right {
   margin-right: -175px;
   letter-spacing: 15px;
+}
+
+@media (max-width: 991.98px) {
+  .me-right {
+    margin-right: 0px;
+    letter-spacing: 5px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .me-right {
+    margin-right: 0px;
+    letter-spacing: 5px;
+  }
+}
+
+.layer {
+  pointer-events: auto;
 }
 
 .p-scroll-btn {
@@ -13968,7 +14010,15 @@ body, h1, .h1, h2, .h2, h3, .h3 {
 
 @media (max-width: 991.98px) {
   .ball {
-    display: none;
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .ball {
+    width: 250px;
+    height: 250px;
   }
 }
 
@@ -14107,7 +14157,7 @@ body, h1, .h1, h2, .h2, h3, .h3 {
 }
 
 .menu li a {
-  font-size: 48px;
+  font-size: 8vw;
 }
 
 @media (min-width: 992px) {
