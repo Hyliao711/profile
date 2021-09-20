@@ -77,4 +77,10 @@ hr.divider-light {
 
 .page-section {
   margin-bottom: 20rem;
+  @include media-breakpoint-down(lg) {
+    margin-bottom: 15rem;
+}
+@include media-breakpoint-down(md) {
+  margin-bottom: 10rem;
+}
 }

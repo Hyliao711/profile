@@ -1,13 +1,22 @@
 .fs-sm-2 {
     font-size: 32px!important;
 }
+.fs-md {
+    font-size: 60px;
+    @include media-breakpoint-down(lg) {
+        font-size: 10vw;
+    }
+    @include media-breakpoint-down(md) {
+        font-size: 10vw;
+    }
+}
 .fs-large {
     font-size: 85px;
     @include media-breakpoint-down(lg) {
-        margin-left: 15vw;
+        font-size: 15vw;
     }
     @include media-breakpoint-down(md) {
-        font-size: 15vw;
+        font-size: 16vw;
     }
 }
 .hover {
@@ -45,6 +54,12 @@
 }
 .mt-50 {
     margin-top: 40%;
+    @include media-breakpoint-down(lg) {
+        margin-top: 20%;
+    }
+    @include media-breakpoint-down(md) {
+        margin-top: 10%;
+    }
 }
 .img {
     object-fit: cover;
