@@ -13774,7 +13774,7 @@ body, h1, .h1, h2, .h2, h3, .h3 {
 
 @media (max-width: 991.98px) {
   .fs-large {
-    font-size: 15vw;
+    font-size: 12vw;
   }
 }
 
@@ -13874,8 +13874,8 @@ body, h1, .h1, h2, .h2, h3, .h3 {
 }
 
 .me-right {
-  margin-right: -175px;
-  letter-spacing: 15px;
+  margin-right: -125px;
+  letter-spacing: 5px;
 }
 
 @media (max-width: 991.98px) {
@@ -13892,8 +13892,31 @@ body, h1, .h1, h2, .h2, h3, .h3 {
   }
 }
 
+.me-right2 {
+  margin-right: -4vw;
+  letter-spacing: 5px;
+}
+
+@media (max-width: 991.98px) {
+  .me-right2 {
+    margin-right: 0px;
+    letter-spacing: 5px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .me-right2 {
+    margin-right: 0px;
+    letter-spacing: 5px;
+  }
+}
+
 .layer {
   pointer-events: auto;
+}
+
+.ff-red {
+  font-family: 'Red Hat Text', sans-serif;
 }
 
 .p-scroll-btn {
@@ -14083,6 +14106,32 @@ body, h1, .h1, h2, .h2, h3, .h3 {
     width: 200px;
     height: 200px;
   }
+}
+
+.shotchange {
+  width: 502px;
+  height: 680px;
+  display: block;
+  background-image: url(/assets/images/portfolio/me0913-4.jpg);
+  background-size: cover;
+}
+
+@media (max-width: 991.98px) {
+  .shotchange {
+    max-width: 502px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .shotchange {
+    height: 467.33px;
+  }
+}
+
+.shotchange:hover {
+  background-image: url(/assets/images/portfolio/me0913-3.jpg);
 }
 
 .index__h1 {
@@ -14318,18 +14367,21 @@ hr.divider-light {
 }
 
 .page-section {
-  margin-bottom: 20rem;
+  padding-top: 18rem;
+  padding-bottom: 18rem;
 }
 
 @media (max-width: 991.98px) {
   .page-section {
-    margin-bottom: 15rem;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
   }
 }
 
 @media (max-width: 767.98px) {
   .page-section {
-    margin-bottom: 10rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
   }
 }
 
