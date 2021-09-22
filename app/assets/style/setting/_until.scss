@@ -13,7 +13,7 @@
 .fs-large {
     font-size: 85px;
     @include media-breakpoint-down(lg) {
-        font-size: 15vw;
+        font-size: 12vw;
     }
     @include media-breakpoint-down(md) {
         font-size: 16vw;
@@ -80,8 +80,20 @@
     letter-spacing: 5px;
 }
 .me-right {
-    margin-right: -175px;
-    letter-spacing: 15px;
+    margin-right: -125px;
+    letter-spacing: 5px;
+    @include media-breakpoint-down(lg) {
+        margin-right: 0px;
+        letter-spacing: 5px;
+    }
+    @include media-breakpoint-down(md) {
+        margin-right: 0px;
+        letter-spacing: 5px;
+    }
+}
+.me-right2 {
+    margin-right: -4vw;
+    letter-spacing: 5px;
     @include media-breakpoint-down(lg) {
         margin-right: 0px;
         letter-spacing: 5px;
@@ -94,4 +106,8 @@
 
 .layer {
     pointer-events: auto;
- }
+}
+
+.ff-red {
+    font-family: 'Red Hat Text', sans-serif;
+}

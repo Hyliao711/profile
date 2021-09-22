@@ -123,3 +123,21 @@
       height: 200px;
     }
   }
+
+  .shotchange {
+    width: 502px;
+    height: 680px;
+    display: block;
+    background-image: url(/assets/images/portfolio/me0913-4.jpg);
+    background-size: cover;
+    @include media-breakpoint-down(lg) {
+      max-width: 502px;
+      object-fit: cover;
+    }
+    @include media-breakpoint-down(md) {
+      height: 467.33px;
+    }
+    &:hover {
+      background-image: url(/assets/images/portfolio/me0913-3.jpg);
+    }
+  }
