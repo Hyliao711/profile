@@ -40,7 +40,7 @@
   --bs-white: #fff;
   --bs-black: #000;
   --bs-third: #1F6C84;
-  --bs-fourth: rgba(255, 214, 0, 0.54);
+  --bs-fourth: #ffd50094;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
@@ -3957,43 +3957,43 @@ fieldset:disabled .btn {
 
 .btn-fourth {
   color: #000;
-  background-color: rgba(255, 214, 0, 0.54);
-  border-color: rgba(255, 214, 0, 0.54);
+  background-color: #ffd50094;
+  border-color: #ffd50094;
 }
 
 .btn-fourth:hover {
   color: #000;
-  background-color: rgba(255, 227, 82, 0.609);
-  border-color: rgba(255, 223, 59, 0.586);
+  background-color: rgba(255, 226, 77, 0.643333);
+  border-color: rgba(255, 222, 54, 0.622353);
 }
 
 .btn-check:focus + .btn-fourth, .btn-fourth:focus {
   color: #000;
-  background-color: rgba(255, 227, 82, 0.609);
-  border-color: rgba(255, 223, 59, 0.586);
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(173, 145, 0, 0.5);
-          box-shadow: 0 0 0 0.25rem rgba(173, 145, 0, 0.5);
+  background-color: rgba(255, 226, 77, 0.643333);
+  border-color: rgba(255, 222, 54, 0.622353);
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(178, 149, 0, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(178, 149, 0, 0.5);
 }
 
 .btn-check:checked + .btn-fourth,
 .btn-check:active + .btn-fourth, .btn-fourth:active, .btn-fourth.active,
 .show > .btn-fourth.dropdown-toggle {
   color: #000;
-  background-color: rgba(255, 231, 103, 0.632);
-  border-color: rgba(255, 223, 59, 0.586);
+  background-color: rgba(255, 229, 97, 0.664314);
+  border-color: rgba(255, 222, 54, 0.622353);
 }
 
 .btn-check:checked + .btn-fourth:focus,
 .btn-check:active + .btn-fourth:focus, .btn-fourth:active:focus, .btn-fourth.active:focus,
 .show > .btn-fourth.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(173, 145, 0, 0.5);
-          box-shadow: 0 0 0 0.25rem rgba(173, 145, 0, 0.5);
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(178, 149, 0, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(178, 149, 0, 0.5);
 }
 
 .btn-fourth:disabled, .btn-fourth.disabled {
   color: #000;
-  background-color: rgba(255, 214, 0, 0.54);
-  border-color: rgba(255, 214, 0, 0.54);
+  background-color: #ffd50094;
+  border-color: #ffd50094;
 }
 
 .btn-outline-primary {
@@ -4371,36 +4371,36 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-fourth {
-  color: rgba(255, 214, 0, 0.54);
-  border-color: rgba(255, 214, 0, 0.54);
+  color: #ffd50094;
+  border-color: #ffd50094;
 }
 
 .btn-outline-fourth:hover {
   color: #000;
-  background-color: rgba(255, 214, 0, 0.54);
-  border-color: rgba(255, 214, 0, 0.54);
+  background-color: #ffd50094;
+  border-color: #ffd50094;
 }
 
 .btn-check:focus + .btn-outline-fourth, .btn-outline-fourth:focus {
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(255, 214, 0, 0.5);
-          box-shadow: 0 0 0 0.25rem rgba(255, 214, 0, 0.5);
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(255, 213, 0, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(255, 213, 0, 0.5);
 }
 
 .btn-check:checked + .btn-outline-fourth,
 .btn-check:active + .btn-outline-fourth, .btn-outline-fourth:active, .btn-outline-fourth.active, .btn-outline-fourth.dropdown-toggle.show {
   color: #000;
-  background-color: rgba(255, 214, 0, 0.54);
-  border-color: rgba(255, 214, 0, 0.54);
+  background-color: #ffd50094;
+  border-color: #ffd50094;
 }
 
 .btn-check:checked + .btn-outline-fourth:focus,
 .btn-check:active + .btn-outline-fourth:focus, .btn-outline-fourth:active:focus, .btn-outline-fourth.active:focus, .btn-outline-fourth.dropdown-toggle.show:focus {
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(255, 214, 0, 0.5);
-          box-shadow: 0 0 0 0.25rem rgba(255, 214, 0, 0.5);
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(255, 213, 0, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(255, 213, 0, 0.5);
 }
 
 .btn-outline-fourth:disabled, .btn-outline-fourth.disabled {
-  color: rgba(255, 214, 0, 0.54);
+  color: #ffd50094;
   background-color: transparent;
 }
 
@@ -6098,13 +6098,13 @@ fieldset:disabled .btn {
 }
 
 .alert-fourth {
-  color: rgba(50, 42, 0, 0.816);
-  background-color: rgba(255, 252, 233, 0.908);
-  border-color: rgba(255, 249, 220, 0.862);
+  color: rgba(55, 46, 0, 0.832157);
+  background-color: rgba(255, 251, 231, 0.916078);
+  border-color: rgba(255, 249, 217, 0.874118);
 }
 
 .alert-fourth .alert-link {
-  color: rgba(37, 31, 0, 0.8528);
+  color: rgba(41, 34, 0, 0.865725);
 }
 
 @-webkit-keyframes progress-bar-stripes {
@@ -6619,19 +6619,19 @@ fieldset:disabled .btn {
 }
 
 .list-group-item-fourth {
-  color: rgba(50, 42, 0, 0.816);
-  background-color: rgba(255, 252, 233, 0.908);
+  color: rgba(55, 46, 0, 0.832157);
+  background-color: rgba(255, 251, 231, 0.916078);
 }
 
 .list-group-item-fourth.list-group-item-action:hover, .list-group-item-fourth.list-group-item-action:focus {
-  color: rgba(50, 42, 0, 0.816);
-  background-color: rgba(225, 222, 206, 0.9172);
+  color: rgba(55, 46, 0, 0.832157);
+  background-color: rgba(225, 222, 204, 0.924471);
 }
 
 .list-group-item-fourth.list-group-item-action.active {
   color: #fff;
-  background-color: rgba(50, 42, 0, 0.816);
-  border-color: rgba(50, 42, 0, 0.816);
+  background-color: rgba(55, 46, 0, 0.832157);
+  border-color: rgba(55, 46, 0, 0.832157);
 }
 
 .btn-close {
@@ -7874,11 +7874,11 @@ fieldset:disabled .btn {
 }
 
 .link-fourth {
-  color: rgba(255, 214, 0, 0.54);
+  color: #ffd50094;
 }
 
 .link-fourth:hover, .link-fourth:focus {
-  color: rgba(255, 231, 103, 0.632);
+  color: rgba(255, 229, 97, 0.664314);
 }
 
 .ratio {
@@ -8302,7 +8302,7 @@ fieldset:disabled .btn {
 }
 
 .border-fourth {
-  border-color: rgba(255, 214, 0, 0.54) !important;
+  border-color: #ffd50094 !important;
 }
 
 .border-1 {
@@ -9543,7 +9543,7 @@ fieldset:disabled .btn {
 }
 
 .text-fourth {
-  color: rgba(255, 214, 0, 0.54) !important;
+  color: #ffd50094 !important;
 }
 
 .text-body {
@@ -9611,7 +9611,7 @@ fieldset:disabled .btn {
 }
 
 .bg-fourth {
-  background-color: rgba(255, 214, 0, 0.54) !important;
+  background-color: #ffd50094 !important;
 }
 
 .bg-body {
